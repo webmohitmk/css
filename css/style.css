@@ -1,0 +1,79 @@
+/* universal selector */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* css comment  */
+
+/* Css selectors */
+
+/* 1. element selector */
+
+/* p{
+    border: 2px solid;
+} */
+
+/* 2. Id selector - # */
+
+/* #container {
+  border: 2px solid green;
+  padding: 10px;
+} */
+/* 3. class selector - . */
+
+/* .subtitle {
+  text-align: center;
+} */
+
+/* 4. Grouping selector */
+/* #container .subtitle , #container p , .child-container{
+    border: 5px solid magenta;
+} */
+
+/* Combinators */
+/* descandant combinator */
+/* #container p {
+  border: 1px solid magenta;
+  padding: 10px;
+} */
+
+/* child combinator(selector) */
+/* #container > p {
+  color: blue;
+}
+
+
+/* next sibling combinator */
+
+/* #container + p{
+    text-align: center;
+} */
+
+/* Subsequent sibling combinator */
+
+/* #container ~ p{
+    text-align: center;
+} */
+
+.banner{
+  background: url(../images/background-image-css.png) no-repeat center ;
+  height: 400px;
+  /* background-repeat: no-repeat;
+  background-position: center; */
+  border: 1px solid;
+  background-size: cover;
+}
+
+.banner h2, p{
+    color: #fff;
+    text-align: right;
+}
+
+.overlay{
+    background: rgba(0,0,0, .5);
+    height: 100%;
+   
+}
